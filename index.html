@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="C:\Users\gudes\AppData\Local\Temp\c20e0a39-f238-4664-92e7-f861b2a0f76e_Jaddu_Lohith_portfolio.zip[1].zip.76e\Jaddu_Lohith_portfolio\style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/8f401c3926.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="IMG-20241227-WA0004.jpg" class="logo" height="200px" width="200px">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Venkatesh Inamanamelluru</span><br>from India</h1>
+        </div>
+    </div>
+</div>
+<!--------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="20250105_160037.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm Venkatesh, a passionate front-end developer with 1 year experience in crafting beautiful and functional user interfaces. My journey into web development began with a deep fascination for creating seamless digital experiences that delight users.
+                    Throughout my career, I've honed my skills in HTML, CSS, and JavaScript, leveraging frameworks like React and Vue.js to build dynamic and responsive web applications. I'm adept at translating design mockups and wireframes into clean, efficient code, ensuring cross-browser compatibility and optimal performance.</p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    
+                    
+                </div>        
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><b>Programming Languages</b></span><br>Python, C, SQL. </li>
+                        <li><span><b>Core Development & Productivity Tools</b></span><br> HTML, CSS, GitHub, Visual Studio Code, Excel, PowerPoint, MS Word.</li>
+                        <li><span><b>Soft Skills</b></span><br>Communication, Teamwork, Problem-Solving, Time Management, Creativity, Leadership, Critical Thinking</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="internship experience">
+                    <p class="tab-links" onclick="opentab('internship experience')">Internship experience</p>
+                    <ul>
+                        <li><span><b>IIDT Blackbucks</b>
+                            <br>May/2024 -July/2024(Remote) </span><br>Developed a fully functional <b>Music application,</b> demonstrating strong
+                            front-end and back-end development skills at IIDT Blackbucks </li>
+                            <div>Collaborated effectively with cross-functional teams throughout the project
+                                lifecycle.</div>
+                            <div>Completed an intensive internship specializing in Full Stack Development
+                                using HTML, CSS, JavaScript, Node.js, and MySQL. 
+                            </div>
+                        <li><span><b>Intel Unnati Industraial Pragram</b>
+                            <br>May/2024-July/2024(Remote)</span><br>Developed a web application to classify content within <b>Business Contract Validation</b>
+                            clauses and identify deviations from predefined templates.</li>
+                            <div>Implemented automated contract parsing, clause detection, and template
+                                comparison using Natural Language Processing (NLP) techniques. </div>
+                            <div>Utilized PyPDF2 for efficient PDF parsing and extraction of contract
+text. Applied NLTK for clause classification and similarity analysis.</div>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <ul>
+                        <li><span>B.tech</span><br>Krishna University-Machilipatam</li>
+                        <div>With 7.5 CGPA</div>
+                        <li><span>Intermediate</span><br>Sri Chaitanya Junior College-Ongole</li>
+                        <li><span>Secondary Scool</span><br>Jupiter High School-Ongole</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services----------->
+
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-business-time"></i>
+                <h2>Business Contract Validation</h2>
+                <p>Developed a web application to classify content within business contract clauses and identify deviations from
+                    predefined templates. 
+                </p>
+                <a href="https://github.com/venkyvenkatesh5/Business-Contract-Validation">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-music"></i>
+                <h2>Music Player Application</h2>
+                <p>Designed and developed a fully functional music application, showcasing seamless integration between front-end and
+                    back-end systems. 
+                     </p>
+                <a href="https://github.com/venkyvenkatesh5/Music-Player">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-calculator"></i>
+                <h2>Age Calculator</h2>
+                <p>The Age Calculator takes a user's birth date as input and calculates their current age in months, and/or
+                    days.This can be a simple calculator or a more advanced version with additional features.
+                </p>
+                <a href="https://github.com/venkyvenkatesh5/Age-calculator">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------portfolio-------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="video-player-hd-all-format-media-player-video-app-152.png">
+                <div class="layer">
+                    <h3>Video Player</h3>
+                    <p>The app connects you yo the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="https://www.youtube.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images.jpg">
+                <div class="layer">
+                    <h3>Music Player App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="https://open.spotify.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="shopping.webp">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="https://www.myntra.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>inamanamellurivenkatesh@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9989588826</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100054953241720"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/venkyvenkatesh5"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/venkatesh-inamanamelluri-9bb362292/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyC6m_jFb3JbmmjMIo7FtNP-J7Syn75wcm_ZnXoZb7r567FrG7ZIG4tykBx7uwM_zs0UA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
