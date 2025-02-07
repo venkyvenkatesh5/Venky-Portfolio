@@ -50,4 +50,4 @@ portfolio/
 This project is open-source and available under the **MIT License**.
 
 ## Contact
-For any inquiries, reach out at **your-email@example.com**.
+For any inquiries, reach out at **inamanamellurivenkatesh@gmail.com**.
