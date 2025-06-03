@@ -3,155 +3,296 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Venkatesh Inamanamelluru | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="IMG-20241227-WA0004.jpg" class="logo" height="200px" width="200px">
-                <ul>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <h1>Hi, I'm <span>Venkatesh Inamanamelluru</span></h1>
-            </div>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Venkatesh Inamanamelluru</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#internships">Internships</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm Venkatesh</h1>
+            <p>A passionate fresher in Computer Science and Engineering ready to create impactful solutions.</p>
         </div>
-    </div>
+    </section>
 
     <!-- About Section -->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="20250105_160037.jpg">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Hello! I'm Venkatesh, a passionate front-end developer with 1 year of experience in crafting beautiful and functional user interfaces. My journey into web development began with a deep fascination for creating seamless digital experiences that delight users. Throughout my career, I've honed my skills in HTML, CSS, and JavaScript, leveraging frameworks like React and Vue.js to build dynamic and responsive web applications. I'm adept at translating design mockups and wireframes into clean, efficient code, ensuring cross-browser compatibility and optimal performance.</p>
-                    <div class="tab-tittles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('internship-experience')">Internship</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span><b>Programming Languages</b></span><br>Python, C, SQL.</li>
-                            <li><span><b>Core Development & Productivity Tools</b></span><br>HTML, CSS, GitHub, Visual Studio Code, Excel, PowerPoint, MS Word.</li>
-                            <li><span><b>Soft Skills</b></span><br>Communication, Teamwork, Problem-Solving, Time Management, Creativity, Leadership, Critical Thinking.</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="internship-experience">
-                        <ul>
-                            <li><span><b>IIDT Blackbucks</b><br>May/2024 - July/2024 (Remote)</span><br>Developed a fully functional <b>Music application</b>, demonstrating strong front-end and back-end development skills at IIDT Blackbucks.</li>
-                            <li><span><b>Intel Unnati Industrial Program</b><br>May/2024 - July/2024 (Remote)</span><br>Developed a web application to classify content within <b>Business Contract Validation</b> clauses and identify deviations from predefined templates.</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>B.Tech</span><br>Krishna University - Machilipatnam<br>With 7.5 CGPA</li>
-                            <li><span>Intermediate</span><br>Sri Chaitanya Junior College - Ongole</li>
-                            <li><span>Secondary School</span><br>Jupiter High School - Ongole</li>
-                        </ul>
-                    </div>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-photo">
+                <img src="IMG-20241227-WA0004.jpg" alt="Profile Photo" class="profile-img">
+            </div>
+            <div class="about-text">
+                <p>I’m a passionate software engineer with hands-on experience in NLP-based automation and full-stack web
+                    development. During my internships at two different organizations, I got the chance to work on real-world
+                    challenges, sharpen my problem-solving skills, and collaborate closely with teams. Those experiences helped me a
+                    strong, well-rounded skill set, Now i use to build practical user-friendly Websites that make the development
+                    process smoother and more efficient.</p>
+                <div class="quick-facts">
+                    <h3>Quick Facts</h3>
+                    <ul>
+                        <li>Based in: Ongole, Andhra Pradesh</li>
+                        <li>Interests: Coding, Participating in Cultural Activities, Problem-Solving</li>
+                        <li>Hobbies: Reading, Gaming, Cooking, Visiting New Places</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-content">
+            <div class="education-item">
+                <h3>Bachelor of Technology (B.Tech)</h3>
+                <p>Krishna University College of Engineering and Technology, Machilipatnam | 2025</p>
+                <p>Percentage: 7.5</p>
+            </div>
+            <div class="education-item">
+                <h3>AP Board of Intermediate Education</h3>
+                <p>Sri Chaitanya Junior College, Ongole | 2021</p>
+            </div>
+            <div class="education-item">
+                <h3>AP Board of Secondary Education</h3>
+                <p>Jupiter High School, Ongole | 2019</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>HTML</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>CSS</span>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>JavaScript</span>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>Java</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>Python</span>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span>MySQL</span>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <ul>
+                    <li>VS Code</li>
+                    <li>GitHub</li>
+                    <li>MS Office</li>
+                    <li>MS Word</li>
+                    <li>PowerPoint</li>
+                    <li>Eclipse</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Communication</li>
+                    <li>Problem-Solving</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internships" class="section">
+        <h2>Internship Experience</h2>
+        <div class="internship-content">
+            <div class="internship-item">
+                <h3>Summer Intern</h3>
+                <p>Intel Unnati Industrial Internship, Remote | May 2024 - July 2024</p>
+                <ul>
+                    <li>Led a team of 5 in developing a web application that validates business contracts by processing PDF documents using PyPDF2, classifying clause content, and detecting deviations from templates with NLP techniques such as Named Entity Recognition (NER) and regular expressions using NLTK.</li>
+                    <li>Designed a template comparison system to calculate similarity scores, highlight deviations, and present results in a Streamlit interface with contract summaries and visualizations, delivering a user-friendly experience.</li>
+                    <li>Managed the project lifecycle—coordinating with Intel mentors, overseeing task distribution, and ensuring alignment with industry standards—while building leadership and project management skills.</li>
+                </ul>
+            </div>
+            <div class="internship-item">
+                <h3>Full Stack Development Intern</h3>
+                <p>IIDT BlackBucks, Remote | May 2024 - July 2024</p>
+                <ul>
+                    <li>Developed a fully functional music application, showcasing strong front-end and back-end development skills.</li>
+                    <li>Collaborated effectively with cross-functional teams throughout the project lifecycle to ensure smooth delivery and integration.</li>
+                    <li>Completed an intensive internship focused on Full Stack Development using technologies such as HTML, CSS, JavaScript, Node.js, and MySQL.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <!-- Projects Section -->
-    <div id="Projects">
-        <div class="container">
-            <h1 class="sub-title">Projects</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-business-time"></i>
-                    <h2>Business Contract Validation</h2>
-                    <p>Developed a web application to classify content within business contract clauses and identify deviations from predefined templates.</p>
-                    <a href="https://github.com/venkyvenkatesh5/Business-Contract-Validation">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-cloud"></i>
-                    <h2>Weather Forecasting</h2>
-                    <p>Weather forecasting is the process of predicting atmospheric conditions based on scientific data and models.</p>
-                    <a href="https://github.com/venkyvenkatesh5/weather-app">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-user-tie"></i>
-                    <h2>Portfolio</h2>
-                    <p>Portfolio in your resume is a great way to showcase your skills, experience, and accomplishments.</p>
-                    <a href="https://github.com/venkyvenkatesh5/Venky-Portfolio">Learn more</a>
-                </div>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="imrs.avif" alt="Healthcare Chatbot">
+                <h3>Healthcare Chatbot and Medicine Recommendation System</h3>
+                <ul>
+                    <li>Developed an AI-powered healthcare chatbot and medicine recommendation system using HTML, CSS, JavaScript, Python, and MySQL to assist patients 24/7 with personalized responses and treatment suggestions.</li>
+                    <li>Integrated machine learning algorithms to deliver accurate medical advice and reduce incorrect data inputs.</li>
+                    <li>Created a responsive and intuitive frontend, backed by Python and MySQL for backend logic and data handling.</li>
+                </ul>
+                <a href="#" class="btn primary">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="online-business.webp" alt="Business Contract Validation">
+                <h3>Business Contract Validation</h3>
+                <ul>
+                    <li>Developed a web application to automate business contract validation using NLP techniques with NLTK and Named Entity Recognition (NER).</li>
+                    <li>Implemented clause classification and template deviation detection to compare extracted clauses against predefined templates.</li>
+                    <li>Utilized PyPDF2 for parsing contract PDFs and built an intuitive Streamlit interface for real-time analysis.</li>
+                </ul>
+                <a href="https://github.com/venkyvenkatesh5/Business-Contract-Validation/tree/main/Business_Contract_Validation-main" class="btn primary">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="interface.jpg" alt="ATM Interface">
+                <h3>ATM Interface</h3>
+                <ul>
+                    <li>Built a console-based ATM system allowing users to log in with a PIN and perform actions like checking balance, depositing, and withdrawing money.</li>
+                    <li>Used file storage to persist account balances across sessions.</li>
+                    <li>Designed with object-oriented principles and control structures for a smooth user experience.</li>
+                </ul>
+                <a href="https://github.com/venkyvenkatesh5/ATM-Interface-console-based-" class="btn primary">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="design-restaurant.jpg" alt="Food Delivery Restaurant">
+                <h3>Food Delivery Restaurant</h3>
+                <ul>
+                    <li>Developed a responsive food delivery website using HTML, CSS, and JavaScript, enabling users to browse menus, view item details, and place orders.</li>
+                    <li>Implemented a real-time cart system with local storage for persistent data and a smooth checkout experience.</li>
+                    <li>Integrated location-based functionality using the Geolocation API for customized delivery options.</li>
+                </ul>
+                <a href="https://github.com/venkyvenkatesh5/Food-Delivery-Restuarant" class="btn primary">View Project</a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Portfolio Section -->
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="video-player-hd-all-format-media-player-video-app-152.png">
-                    <div class="layer">
-                        <h3>Video Player</h3>
-                        <p>The app connects you to talented people around the world. Download it from the play store.</p>
-                        <a href="https://www.youtube.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images.jpg">
-                    <div class="layer">
-                        <h3>Music Player App</h3>
-                        <p>The app connects you to talented people around the world. Download it from the play store.</p>
-                        <a href="https://open.spotify.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="shopping.webp">
-                    <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The app connects you to talented people around the world. Download it from the play store.</p>
-                        <a href="https://www.myntra.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <div class="certifications-content">
+            <div class="certification-item">
+                <h3>Prompt Engineering and Advanced ChatGPT</h3>
+                <p>Earned a certification in Prompt Engineering and Advanced ChatGPT from edX, developing strong skills in designing effective
+                    prompts and enhancing AI-driven conversations.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Artifical Intelligence Machine Learning</h3>
+                <p>Completed AIML training with APSSDC, building a solid foundation in Artificial Intelligence and Machine Learning concepts
+                    and applications.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Intel Unnati Industrial Training</h3>
+                <p>Completed Intel Unnati Industrial Training as a Tester, Worked on the ’Business Contract Validation’ project, gaining
+                    hands-on experience in quality assurance and validation processes.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Full Stack Development</h3>
+                <p>I completed Full Stack Development training with APSCHE-IIDT and Black Bucks, I gained hands-on experience in both
+                    front-end and back-end technologies.</p>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Contact Section -->
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope-circle-check"></i>inamanamellurivenkatesh@gmail.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i>9989588826</p>
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/profile.php?id=100054953241720"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://github.com/venkyvenkatesh5"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/venkatesh-inamanamelluri-9bb362292/"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                    <a href="RESUME.pdf" download class="btn btn2">Download CV</a>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="contact-content">
+            <p>Feel free to reach out for collaboration or opportunities!</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:inamanamellurivenkatesh@gmail.com">inamanamellurivenkatesh@gmail.com</a>
                 </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/venkatesh-inamanamelluri-9bb362292/" target="_blank">LinkedIn Profile</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/venkyvenkatesh5" target="_blank">GitHub Profile</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-file-download"></i>
+                    <a href="Venky Resume.pdf" download>Download Resume</a>
                 </div>
             </div>
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Submit</button>
+                </form>
+                <p id="formStatus"></p>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
