@@ -70,4 +70,4 @@ Want to connect?
 
 * Fonts from [Google Fonts](https://fonts.google.com/)
 * Icons from [Font Awesome](https://fontawesome.com/)
-* Designed & developed with ❤️ by \[Your Name]
+* Designed & developed with ❤️ by \[Venkatesh Inamanamelluru]
